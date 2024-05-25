@@ -1,56 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AKG || Shop</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <div class="hero">
-        <!-- navbar code  -->
-        <div class="nav-bar">
-            <div class="menu menu-1">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>AKG || Shop</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="hero">
+            <!-- navbar code  -->
+            <div class="nav-bar">
+                <div class="menu menu-1">
+                    <ul>
+                        <li><a href="#">Stories</a></li>
+                        <li><a href="#">New In</a></li>
+                        <li><a href="#">All Products</a></li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <img src="./img/logo.jpg" alt="" />
+                </div>
+                <div class="menu menu-2">
+                    <ul>
+                        <li><a href="#">Search</a></li>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">Cart(0)</a></li>
+                    </ul>
+                </div>
+                <div class="toggle-btn" onclick="toggleBtn()">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="33"
+                        height="33"
+                        viewBox="0 0 33 33"
+                        fill="none"
+                    >
+                        <g clip-path="url(#clip0_42_116)">
+                            <path
+                                d="M24.75 23.375H8.25"
+                                stroke="#1E1C1A"
+                                stroke-width="2.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                            <path
+                                d="M8.25 16.5H24.75"
+                                stroke="#1E1C1A"
+                                stroke-width="2.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                            <path
+                                d="M14.4375 9.625H8.25"
+                                stroke="#1E1C1A"
+                                stroke-width="2.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_42_116">
+                                <rect width="33" height="33" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+            <!-- menu: hidden in desktop, shown in phones  -->
+            <div class="toggle-menu">
                 <ul>
                     <li><a href="#">Stories</a></li>
-                    <li><a href="#">New In</a></li>
                     <li><a href="#">All Products</a></li>
-                </ul>
-            </div>
-            <div class="logo">
-                <img src="./img/logo.jpg" alt="">
-            </div>
-            <div class="menu menu-2">
-                <ul>
-                    <li><a href="#">Search</a></li>
                     <li><a href="#">Wishlist</a></li>
                     <li><a href="#">Cart(0)</a></li>
                 </ul>
             </div>
+
+            <!-- nav-text code -->
+            <div class="nav-text">
+                <h2>
+                    Fashionable, quality, durable and best shoes for everyone
+                </h2>
+                <button class="btn">SHOP NOW →</button>
+            </div>
+
+            <div class="hero-img">
+                <div class="img-card-1">
+                    <img src="./img/shoes/1.jpg" alt="" />
+                </div>
+                <div class="img-card-2">
+                    <img src="./img/shoes/2.jpg" alt="" />
+                </div>
+                <div class="img-card-3">
+                    <img src="./img/shoes/3.jpg" alt="" />
+                </div>
+                <div class="img-card-4">
+                    <img src="./img/shoes/4.jpg" alt="" />
+                </div>
+            </div>
         </div>
 
-        <!-- nav-text code -->
-        <div class="nav-text">
-            <h2>
-                Fashionable, quality, durable and best shoes for everyone
-            </h2>
-            <button class="btn">SHOP NOW → </button>
-        </div>
+        <!-- collection section  -->
 
-        <div class="hero-img">
-            <div class="img-card-1">
-                <img src="./img/shoes/1.jpg" alt="">
-            </div>
-            <div class="img-card-2">
-                <img src="./img/shoes/2.jpg" alt="">
-            </div>
-            <div class="img-card-3">
-                <img src="./img/shoes/3.jpg" alt="">
-            </div>
-            <div class="img-card-4">
-                <img src="./img/shoes/4.jpg" alt="">
-            </div>
-        </div>
-    </div>
-</body>
+
+        <script src="./script.js"></script>
+    </body>
 </html>
